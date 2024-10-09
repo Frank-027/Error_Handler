@@ -1,0 +1,9 @@
+# SEV 	ErrCode	Param
+# -------------------
+1	FSY0001	Frank.txt
+1	FSY0002	123456789.txt
+5	FSY0003	TEST.txt
+1	FSY0004	measurements.txt
+1	FSY0005	Frank.txt
+1	FSY0006	123456789.txt
+5	FSY0007	TEST.txt

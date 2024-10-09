@@ -1,0 +1,11 @@
+FSY0001	Could not open the file %s for reading
+FSY0002	Could not open the file %s for writing
+FSY0003	Could not open the file %s for appending
+FSY0004	Could not open the file %s
+FSY0005	Could not write to the file %s
+FSY0006	Could not read from the file %s
+FSY0007	Could not append to the file %s
+MEA0027	Incorrect measurement
+USR0001	User %s has no access
+ABC0011	This is a test
+ABC000x	Test 2
