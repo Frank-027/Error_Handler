@@ -14,7 +14,7 @@
 #include <string.h>
 #include <time.h>
 #include <MQTTClient.h>
-#include "mqtt_settings.h"
+#include "mqtt_settings.h" // This file contains local settings
 
 // uncomment this DEBUG if the program needs to be started up in DEBUG mode
 // #define DEBUG
