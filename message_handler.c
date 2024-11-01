@@ -24,14 +24,6 @@
 #define ERRCODE_FIELD   2
 #define PARAM_FIELD     3
 
-#define TIMESTR_LEN     50
-#define SUBSYSTEM_LEN   50
-#define SEVCODE_LEN     5
-#define ERRCODE_LEN     7
-#define ERRMSG_LEN		120
-#define ERRPARAM_LEN    120
-#define ERR_OUT_LEN     1024
-
 #define SEVCODE_DEFAULT     "4"
 #define SEV1                '1'
 #define SEV4                '4'
@@ -424,9 +416,8 @@ int msgarrvd(void *context, char *topicName, int topicLen, MQTTClient_message *m
         printf("Publishing to topic %s\n", PUB_TOPIC);
     #endif
     
-    // int rc = MQTTClient_waitForCompletion(client, token, TIMEOUT );
-    
     #ifdef DEBUG
+        int rc = MQTTClient_waitForCompletion(client, token, TIMEOUT );
         printf("Message with delivery token %d delivered, rc=%d\n", token, rc);
     #endif
     
@@ -457,7 +448,7 @@ int main(int argc, char* argv[]) {
     
     // Set Error Table to specified language
     if ( argc == 1 )
-         sprintf( filename, "%sEN.txt", FILENAME ); // default language
+         sprintf( filename, "%sENE.txt", FILENAME ); // default language
     else
          sprintf( filename, "%s%s.txt", FILENAME, argv[1] );
    

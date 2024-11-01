@@ -1,10 +1,12 @@
-FYS0001	Impossible d'ouvrir le fichier %s à lire
-FYS0002	Impossible d'ouvrir le fichier %s à écrire
-FYS0003	Impossible d'ouvrir le fichier %s à ajouter
-FYS0004	Impossible d'ouvrir le fichier %s
-FYS0005	Impossible d'écrire dans le fichier %s
-FYS0006	Impossible de lire à partir du fichier %s
-FYS0007	Ne peut pas être ajouté au fichier %s
+# ErrCode   Err text
+# ------------------------------------------------
+FSY0001	Impossible d'ouvrir le fichier %s à lire
+FSY0002	Impossible d'ouvrir le fichier %s à écrire
+FSY0003	Impossible d'ouvrir le fichier %s à ajouter
+FSY0004	Impossible d'ouvrir le fichier %s
+FSY0005	Impossible d'écrire dans le fichier %s
+FSY0006	Impossible de lire à partir du fichier %s
+FSY0007	Ne peut pas être ajouté au fichier %s
 MEA0027	Mesure incorrecte
 USR0001	L'utilisateur %s ne peut pas accéder
 ABC0011	Il s'agit d'un test

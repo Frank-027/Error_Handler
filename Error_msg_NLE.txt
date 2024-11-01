@@ -1,12 +1,10 @@
-# ErrCode   Err text
-# ------------------------------------------------
-FSY0001	Kan het bestand %s niet openen om te lezen
-FSY0002	Kan het bestand %s niet openen om te schrijven
-FSY0003	Kan het bestand %s niet openen om toe te voegen
-FSY0004	Kan het bestand %s niet openen
-FSY0005	Kan niet naar het bestand %s schrijven
-FSY0006	Kan niet lezen uit het bestand %s
-FSY0007	Kan niet worden toegevoegd aan het bestand %s
+FYS0001	Kan het bestand %s niet openen om te lezen
+FYS0002	Kan het bestand %s niet openen om te schrijven
+FYS0003	Kan het bestand %s niet openen om toe te voegen
+FYS0004	Kan het bestand %s niet openen
+FYS0005	Kan niet naar het bestand %s schrijven
+FYS0006	Kan niet lezen uit het bestand %s
+FYS0007	Kan niet worden toegevoegd aan het bestand %s
 MEA0027	Onjuiste meting
 USR0001	Gebruiker %s heeft geen toegang
 ABC0011	Dit is een test
@@ -22,7 +20,7 @@ AUT1001	Ongeldige gebruikersnaam of wachtwoord.
 AUT1002	Gebruikersaccount is vergrendeld.
 AUT1003	Token is verlopen.
 AUT1004	Onvoldoende machtigingen.
-AUT1005	Kan gebruiker niet verifiÃ«ren.
+AUT1005	Kan gebruiker niet verifiëren.
 DBE2001	Databaseverbinding is mislukt.
 DBE2002	Fout bij het ophalen van gegevens.
 DBE2003	Fout bij het invoeren van gegevens.
@@ -51,7 +49,7 @@ CFG6005	Configuratie-instelling is afgeschaft.
 SYN7001	Syntaxisfout in de opdracht.
 SYN7002	Onverwacht token tegengekomen.
 SYN7003	Ontbrekende puntkomma.
-SYN7004	OngeÃ«venaarde haakjes.
+SYN7004	Ongeëvenaarde haakjes.
 SYN7005	Ongeldig teken in invoer.
 PER8001	Toestemming geweigerd.
 PER8002	Alleen-lezen bestandssysteem.
