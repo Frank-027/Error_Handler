@@ -3,5 +3,10 @@
 message_handler
 message_handler.o
 Publish_mqtt_1
+Publish_mqtt_1.o
 Publish_mqtt_2
+Publish_mqtt_2.o
 send_mqtt_msg
+Test_1
+pahoo.mqtt.c
+hello_Frank
