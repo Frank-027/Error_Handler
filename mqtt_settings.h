@@ -14,7 +14,7 @@
 #define TOPIC_LEN   120
 
 #define TIMESTR_LEN     50
-#define SUBSYSTEM_LEN   50
+#define SUBSYSTEM_LEN   150
 #define SEVCODE_LEN     5
 #define ERRCODE_LEN     7
 #define ERRMSG_LEN		120

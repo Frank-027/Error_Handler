@@ -2,7 +2,7 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc build active file",
+            "label": "Frank: C/C++: gcc build active file",
             "command": "/usr/bin/gcc",
             "args": [
                 "-I/usr/local/include",
@@ -28,7 +28,7 @@
         },
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc build active file",
+            "label": "Frank: C/C++: gcc build active file",
             "command": "/usr/bin/gcc",
             "args": [
                 "-I/usr/local/include",

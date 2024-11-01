@@ -15,7 +15,7 @@
 #define FILENAME            "./Error_input1_%s.txt"
 #define MAX_RECORDS         10000
 
-#define DELAY_TIME          10
+#define DELAY_TIME          1
 #define MAX_TRANSMISSIONS   5
 
 struct node {

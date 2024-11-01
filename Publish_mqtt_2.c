@@ -193,7 +193,7 @@ int read_errorfile( char *file_name ) {
    // open the input file
    fp = fopen( file_name, "r" );
    if ( fp == NULL ) {
-      printf( "Can't open Error Msg file %s÷\n", file_name );
+      printf( "Can't open Error Msg file <%s>\n", file_name );
       return( 0 );
    }
    
@@ -272,7 +272,7 @@ int main(int argc, char* argv[]) {
     
     
     if ( argc == 1 )
-         sprintf( filename, FILENAME, "NL" ); // default language
+         sprintf( filename, FILENAME, "EN" ); // default language
     else
          sprintf( filename, FILENAME, argv[1] );
    
